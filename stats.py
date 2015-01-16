@@ -11,7 +11,7 @@ def mean(vals):
     return total/length
 
 def median(vals):
-	"""This calculates the median from a list of values"""
+    """This calculates the median from a list of values"""
     vals.sort()
     z = len(vals)
     index = z / 2
@@ -19,6 +19,7 @@ def median(vals):
        return mean([vals[index], vals[index - 1]])
     else:
        return vals[index]
+
 
 def mode(vals):
     """Computes the mode from a list of values."""
